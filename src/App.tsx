@@ -1,10 +1,13 @@
 import { TelaInicialListaDeProjetos } from "./components/tela-inicial---lista-de-projetos";
+import FileRead from "./file/DataFile";
 
 function App() {
 
- 
+
   return (
-    <TelaInicialListaDeProjetos />
+    <FileRead >
+      <TelaInicialListaDeProjetos />
+    </FileRead>
   );
 }
 
